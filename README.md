@@ -2,7 +2,9 @@
 
 Welcome to **PhotoFeed**, a sleek and performant photo gallery application built with **Next.js** and **Tailwind CSS**. It offers a clean, modern interface for browsing high-quality images and includes support for internationalization (i18n).
 
-![App Screenshot](./public/screenshot.png) <!-- Replace with an actual screenshot -->
+![App Screenshot](./public/Screenshot1.png) <!-- Replace with an actual screenshot -->
+![App Screenshot](./public/Screenshot2.png) <!-- Replace with an actual screenshot -->
+![App Screenshot](./public/Screenshot3.png) <!-- Replace with an actual screenshot -->
 
 ---
 
