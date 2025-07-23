@@ -24,8 +24,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        <Navbar />
-        <div className="container my-4 lg:my-8"> {children}</div>
+        <div id="modal-root-content">
+          <Navbar />
+          <div className="container my-4 lg:my-8"> {children}</div>
+        </div>
       </body>
     </html>
   );
