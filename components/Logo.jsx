@@ -7,7 +7,7 @@ const Logo = () => {
       <Image
         className="max-w-[100px] md:max-w-[165px]"
         src="/lws_logo.png"
-        alt="Lws"
+        alt="LWS Photo Feed"
         height={100}
         width={165}
       />

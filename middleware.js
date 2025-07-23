@@ -4,16 +4,14 @@ const { match } = require("@formatjs/intl-localematcher");
 const Negotiator = require("negotiator");
 
 let locales = ["en", "bn"];
-let defultLocale = "en";
+let defaultLocale = "en";
 
 function getLocale(request) {
   const acceptedLanguage = request.headers.get("accept-language") ?? undefined;
   let headers = { "accept-language": acceptedLanguage };
   let languages = new Negotiator({ headers }).languages();
 
-  console.log(languages);
-
-  return match(languages, locales, defultLocale);
+  return match(languages, locales, defaultLocale);
 }
 
 export function middleware(request) {

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-roboto;
+    @apply font-geist-sans;
   }
   h1,
   h2,
@@ -12,7 +12,7 @@
   h4,
   h5,
   h6 {
-    @apply font-poppins;
+    @apply font-geist-mono;
   }
 }
 
